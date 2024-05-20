@@ -1,15 +1,14 @@
-// Vendor model
-import 'package:mobileproject/product.dart';
 
-class Vendor {
-   String id;
-   String name;
-   String email;
-   String phoneNumber;
-   String address;
-   List<product> products; // List of products listed by the vendor
+import "package:mobileproject/product.dart";
+class vendor {
+  final String id;
+  final String name;
+  final String email;
+  final String phoneNumber;
+  final String address;
+  final List<product> products; // List of products listed by the vendor
 
-  Vendor({
+  vendor({
     required this.id,
     required this.name,
     required this.email,
@@ -18,8 +17,3 @@ class Vendor {
     required this.products,
   });
 }
-
-
-
-
-
